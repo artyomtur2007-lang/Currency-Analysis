@@ -44,6 +44,10 @@ Frankfurter API (бесплатный, без ключа)
 ## Структура репозитория
 
 ```
+├── screenshots/
+│   ├── pair_selector.png
+│   ├── volatility_chart.png
+│   └── model_vs_baseline.png
 ├── connection.py          # подключение к PostgreSQL (SQLAlchemy engine + psycopg2)
 ├── fetch_rates.py         # сбор исторических курсов через Frankfurter API
 ├── load.py                # очистка и загрузка сырых данных в БД
